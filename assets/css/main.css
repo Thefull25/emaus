@@ -1688,17 +1688,6 @@ text-transform: capitalize;
 z-index: 1;
 }
 
-.site-heading h4::before {
-background: #00a01d none repeat scroll 0 0;
-bottom: 0;
-content: "";
-height: 2px;
-left: 50%;
-margin-left: -25px;
-position: absolute;
-width: 50px;
-}
-
 .site-heading {
 margin-bottom: 60px;
 overflow: hidden;
