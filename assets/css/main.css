@@ -1988,6 +1988,7 @@ width: 120px;
   display: grid;
   position: relative;
   grid-template-columns: repeat(12, 1fr);
+  margin-left: 100px;
 }
 
 .features .features-item .image-stack .stack-back {
