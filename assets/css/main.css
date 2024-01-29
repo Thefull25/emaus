@@ -2004,3 +2004,59 @@ width: 120px;
   width: 100%;
   z-index: 2;
 }
+
+.clients {
+  padding: 15px 0;
+  text-align: center;
+}
+
+.clients img {
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  padding: 15px 0;
+}
+
+.clients img:hover {
+  transform: scale(1.15);
+}
+
+.img-fluid1{
+  max-width: 330px;
+  height: 170px;
+}
+.img-fluid2{
+  max-width: 115px;
+  margin-left: auto;
+}
+.img-fluid3{
+  max-width: 150px;
+  margin-left: auto;
+}
+.img-fluid4{
+  max-width: 240px;
+  margin-left: 70px;
+}
+
+
+@media (max-width: 768px) {
+  
+  .img-fluid1 {
+    max-width: 110%;
+    height: auto;
+  }
+
+  .img-fluid2{
+    max-width: 115px;
+    margin-right: auto;
+  }
+
+  .img-fluid3{
+    max-width: 150px;
+    margin-right: auto;
+  }
+
+  .img-fluid4{
+    max-width: 180px;
+    margin-right: 40px;
+  }
+}
